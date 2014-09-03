@@ -16,6 +16,6 @@ module.exports.outsideRanges = function(number) {
 };
 
 module.exports.nameAndPrice = function(name, price) {
-	return (price >= 1) && (name !== "Chicago Tribune");
+	return (price >= 1) && ((name === "LATimes") || (name === "NYTimes");
 
 };
