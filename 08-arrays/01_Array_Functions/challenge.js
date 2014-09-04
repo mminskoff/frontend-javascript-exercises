@@ -10,5 +10,5 @@ module.exports.plusesEverywhere = function(arr) {
 };
 
 module.exports.arrayQuantityPlusOne = function(arr) {
-	return [arr];
+	return arr.length + 1;
 };
