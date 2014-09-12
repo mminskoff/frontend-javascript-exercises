@@ -1,3 +1,18 @@
-module.exports.addItem = undefined;
+module.exports.addItem = function(item, arr) {
+	if (arr.indexOf(item)  == - 1) {
+		arr.push(item)
+	}
+	return arr;
 
-module.exports.reverseSortedList = undefined;
+	//GO OVER THIS AGAIN
+};
+
+module.exports.reverseSortedList = function(arr) {
+	// var sort = arr.sort();
+	// var reverse = sort.reverse();
+
+	// return reverse
+	return arr.sort().reverse();
+};
+
+//GO OVER AGAIN
